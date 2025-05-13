@@ -1,0 +1,59 @@
+
+
+.app-container {
+  width: 100%;
+  max-width: 28rem; /* 448px */
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #2d2d2d;
+  color: #f97316; /* orange-500 */
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.app-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.password-box {
+  display: flex;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.password-input {
+  outline: none;
+  flex-grow: 1;
+  padding: 0.25rem 0.75rem;
+  font-size: 1rem;
+}
+
+.copy-button {
+  background-color: #1d4ed8; /* blue-700 */
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.controls {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  flex-wrap: wrap;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+input[type="range"] {
+  cursor: pointer;
+}
