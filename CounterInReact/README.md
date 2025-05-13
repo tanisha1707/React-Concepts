@@ -1,0 +1,1 @@
+Hooks:- React Hooks are functions that allow functional components in React to manage state, handle side effects, and access other React features without needing class components. They provide a simpler and more efficient way to manage component logic.
